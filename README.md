@@ -1,12 +1,15 @@
 # Howdy!
 ## Bullet sales data challenge
-Prepared by Steve Iannaccone - May 2017
+Prepared by **Steve Iannaccone** - May 2017
 
-Objectives: given historical sales data, project future sales for the next 12 months.
+Objectives: given historical sales data, project future sales for the next
+12 months.
 
 ## Table of Contents:
 
 * [Background](README.md#background)
+* [Exploratory Data Analysis](README.md#eda)
+* [Forecasting Approach](README.md#forecasting-approach)
 * [Remington Forecasts:](README.md#remington-forecasts)
     * [52fxl](README.md#52fxl)
     * [53fxl](README.md#53fxl)
@@ -73,7 +76,8 @@ This leaves us with additive modeling that will handle seasonality and trend
 decomposition. Facebook has recently open-sourced a forecasting tool called
 Prophet that does exactly this. It also adds the benefit of being able to pass
 forecasting through Monte Carlo Markov Chain _(MCMC)_ algorithms to do Bayesian
-inference. This gives us confidence intervals on the predicted values as well.
+inference. This gives us confidence intervals on the predicted values as well
+_(in this case, 80% CI)_.
 
 The MCMC portion of forecasting is passed through the python STAN package that
 leverages Hamiltonian Monte Carlo modeling _(with Metropolis sampling)_ which
@@ -103,17 +107,8 @@ as well as the aggregated forecasts. You can use the Table of Contents to jump
 directly to a handgun model or you can access all the data files directly in the
 `report` directory of this repo as well.
 
-
-smoothing - trend and seasonality
-
-ARIMA - moving average good for data with sudden spikes
-Additive Modeling:
-Monte Carlo Markov Chain - gets confidence intervals (80%) from Bayesian inference
-    Uses No U-Turn Sampling for Hamiltonian Monte Carlo (Metropolis sampling)
-    Error in Hamiltonian stays bounded so it's a good choice for optimization (high acceptance rate).
-    Fourier transform helps identify recurrent sales (or seasonality)
-Currently no floor on predictions - some sales forecasts are negative.
-    clean up negative and fractional predicted sales values
+Code for all of this can be found in the `steve-iannaccone_data-challenge.py`
+script file as well.
 
 
 ## Remington Forecasts
@@ -145,6 +140,8 @@ Cleaned forecast:
 | 1817-11-01 | 7.0     |
 | 1817-12-01 | 7.0     |
 
+Final forecast plot:
+![52fxl forecast plot](report/Remington_52fxl_final_forecast.png?raw=true "52fxl final forecast plot")
 
 ### 53fxl
 Forecast model plot:
@@ -172,8 +169,8 @@ Cleaned forecast:
 | 1817-11-01 | 3.0     |
 | 1817-12-01 | 6.0     |
 
-
-
+Final forecast plot:
+![53fxl forecast plot](report/Remington_53fxl_final_forecast.png?raw=true "53fxl final forecast plot")
 
 ### 54fxl
 Forecast model plot:
@@ -201,6 +198,9 @@ Cleaned forecast:
 | 1817-11-01 | 100.0   |
 | 1817-12-01 | 7.0     |
 
+Final forecast plot:
+![54fxl forecast plot](report/Remington_54fxl_final_forecast.png?raw=true "54fxl final forecast plot")
+
 
 ### 55fxl
 Forecast model plot:
@@ -227,6 +227,8 @@ Cleaned forecast:
 | 1817-11-01 | 31.0    |
 | 1817-12-01 | -0.0    |
 
+Final forecast plot:
+![55fxl forecast plot](report/Remington_55fxl_final_forecast.png?raw=true "55fxl final forecast plot")
 
 ### 56fxl
 Forecast model plot:
@@ -250,6 +252,9 @@ Cleaned forecast:
 | 1817-11-01 | 0.0     |
 | 1817-12-01 | 0.0     |
 
+Final forecast plot:
+![56fxl forecast plot](report/Remington_56fxl_final_forecast.png?raw=true "56fxl final forecast plot")
+
 ### 57fxl
 Forecast model plot:
 ![57fxl forecast plot](report/Remington_57fxl_forecast.png?raw=true "57fxl forecast plot")
@@ -272,6 +277,9 @@ Cleaned forecast:
 | 1817-11-01 | 25.0    |
 | 1817-12-01 | 76.0    |
 
+Final forecast plot:
+![57fxl forecast plot](report/Remington_57fxl_final_forecast.png?raw=true "57fxl final forecast plot")
+
 ### 58fxl
 Forecast model plot:
 ![58fxl forecast plot](report/Remington_58fxl_forecast.png?raw=true "58fxl forecast plot")
@@ -293,6 +301,8 @@ Cleaned forecast:
 | 1817-10-01 | 5.0     |
 | 1817-11-01 | 48.0    |
 | 1817-12-01 | 2.0     |
+Final forecast plot:
+![58fxl forecast plot](report/Remington_58fxl_final_forecast.png?raw=true "58fxl finalforecast plot")
 
 ### 59fxl
 Forecast model plot:
@@ -316,6 +326,9 @@ Cleaned forecast:
 | 1817-11-01 | 57.0    |
 | 1817-12-01 | 55.0    |
 
+Final forecast plot:
+![59fxl forecast plot](report/Remington_59fxl_final_forecast.png?raw=true "59fxl final forecast plot")
+
 ### 60fxl
 Forecast model plot:
 ![60fxl forecast plot](report/Remington_60fxl_forecast.png?raw=true "60fxl forecast plot")
@@ -338,6 +351,9 @@ Cleaned forecast:
 | 1817-11-01 | 103.0   |
 | 1817-12-01 | 0.0     |
 
+Final forecast plot:
+![60fxl forecast plot](report/Remington_60fxl_final_forecast.png?raw=true "60fxl final forecast plot")
+
 ### 61fxl
 Forecast model plot:
 ![61fxl forecast plot](report/Remington_61fxl_forecast.png?raw=true "61fxl forecast plot")
@@ -359,6 +375,10 @@ Cleaned forecast:
 | 1817-10-01 | 8.0     |
 | 1817-11-01 | 16.0    |
 | 1817-12-01 | 16.0    |
+
+Final forecast plot:
+![61fxl forecast plot](report/Remington_61fxl_final_forecast.png?raw=true "61fxl final forecast plot")
+
 
 ## Henry-Lever Forecasts
 
@@ -384,6 +404,9 @@ Cleaned forecast:
 | 1817-11-01 | 0.0     |
 | 1817-12-01 | -0.0    |
 
+Final forecast plot:
+![80fxl forecast plot](report/Henry_Lever_80fxl_final_forecast.png?raw=true "80fxl final forecast plot")
+
 ### 81fxl
 Forecast model plot:
 ![81fxl forecast plot](report/Henry_Lever_81fxl_forecast.png?raw=true "81fxl forecast plot")
@@ -406,6 +429,8 @@ Cleaned forecast:
 | 1817-11-01 | 1.0     |
 | 1817-12-01 | 0.0     |
 
+Final forecast plot:
+![81fxl forecast plot](report/Henry_Lever_81fxl_final_forecast.png?raw=true "81fxl final forecast plot")
 
 ### 82fxl
 Forecast model plot:
@@ -429,6 +454,8 @@ Cleaned forecast:
 | 1817-11-01 | 0.0     |
 | 1817-12-01 | 0.0     |
 
+Final forecast plot:
+![82fxl forecast plot](report/Henry_Lever_82fxl_final_forecast.png?raw=true "82fxl final forecast plot")
 
 ### 83fxl
 Forecast model plot:
@@ -452,6 +479,8 @@ Cleaned forecast:
 | 1817-11-01 | 12.0    |
 | 1817-12-01 | 11.0    |
 
+Final forecast plot:
+![83fxl forecast plot](report/Henry_Lever_83fxl_final_forecast.png?raw=true "83fxl final forecast plot")
 
 ### 84fxl
 Forecast model plot:
@@ -475,7 +504,8 @@ Cleaned forecast:
 | 1817-11-01 | 2.0     |
 | 1817-12-01 | 4.0     |
 
-
+Final forecast plot:
+![84fxl forecast plot](report/Henry_Lever_84fxl_final_forecast.png?raw=true "84fxl final forecast plot")
 
 ## Aggregated Results
 
@@ -514,10 +544,21 @@ Cleaned forecast:
 | 1817-12-01 | 169.0   |
 
 ## Drawbacks
-Underestimates sudden jumps in sales _(e.g. Henry-Lever 81fxl - model does a poor job estimating)_
-Additive Models - Overfitting, multicolinearity
+Like all modeling, there are some drawbacks. Namely, in this approach you can
+see that the models frequently underestimate sudden jumps in the sales data
+_(e.g. Henry-Lever 81fxl)_. Also, like all additive models, there is a real
+risk of overfitting. In our case this is hard to estimate. Because we only have
+a little data for each handgun model, the opportunity to run Cross-Validation
+to tune parameters, validate, and run the maodel on a test set to check for
+robustness is simply not an option. Like nearly all data scientists is history,
+I will ask for more data!
+
 ## Future Work
-Other models
-Aggregate sale data and rebuild model on agg data, rather than agg of sales forecasts.
-RNN - will probably need more granular data for this to work well
-More data would mean we could make a hold out set for validation.
+Given more time and more data, the next steps would be:
+* Check other models
+* Aggregate sale data first and then rebuild model _(rather than making model
+forecasts first, and then aggregating)_
+* Transfoem data ahead of modeling to fix floor problem _(maybe use Box-Cox)_
+* With more granular data running a RNN would be interesting
+* More data would also mean we could use proper cross-validation approaches
+* Use plotly for interactive charts

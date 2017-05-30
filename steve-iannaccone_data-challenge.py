@@ -13,10 +13,7 @@
 import datetime
 from datetime import timedelta
 import pandas as pd
-# from pandas.tools.plotting import autocorrelation_plot
 import numpy as np
-# from statsmodels.tsa.seasonal import seasonal_decompose
-# from statsmodels.tsa.arima_model import ARIMA
 import matplotlib.pyplot as plt
 from pylab import rcParams
 from fbprophet import Prophet
@@ -116,6 +113,7 @@ def make_forecast(ds, data, show_plot=False, save_plot=True,
     forecast = model.predict(future)
 
     if save_plot or show_plot:
+        plt.close('all')
         model.plot(forecast)
         if save_plot and kwargs is not None:
             plt.savefig('{}_forecast.png'.format(kwargs['filepath']))
@@ -125,7 +123,9 @@ def make_forecast(ds, data, show_plot=False, save_plot=True,
             plt.savefig('{}_seasonality.png'.format(kwargs['filepath']))
         if show_plot:
             plt.show()
-
+        else:
+            plt.show()
+            plt.close('all')
     return model, forecast
 
 def clean_forecast(forecast, discretize=True):
@@ -183,11 +183,14 @@ def generate_report(df, modelname):
 
     preds = forecast[forecast.ds > '1816-12-01']
 
-    out_csv = pd.DataFrame()
-    out_csv['datetime'] = preds['ds']
-    out_csv['bullets'] = preds['yhat']
+    out_df = pd.DataFrame()
+    out_df['datetime'] = preds['ds']
+    out_df['bullets'] = preds['yhat']
 
-    out_csv.to_csv('report/{}_forecast.csv'.format(modelname))
+    out_df.to_csv('report/{}_forecast.csv'.format(modelname))
+
+    #Make final forecast plot:
+    forecast_plotter(df, out_df, modelname)
 
 def agg_sales(folderpath):
     """
@@ -225,6 +228,26 @@ def agg_sales(folderpath):
 
     rem_agg.to_csv('report/Agg_Remington_forecast.csv')
     hl_agg.to_csv('report/Agg_Henry_Lever_forecast.csv')
+
+def forecast_plotter(df, forecast, modelname):
+    """
+    INPUT: Pandas dataframe with original sales data, and Pandas dataframe with
+        new cleaned forecast sales data
+    OUTPUT: saved plot as png
+    -------------------------------------------------------------------------
+    Make time series plot with original sales data and with cleaned forecast
+    data using matplotlib
+    """
+    #Parse date strings from orignal sales dataframe:
+    df.datetime = df.datetime.apply(lambda x: \
+                                    datetime.datetime.strptime(x, '%Y-%m-%d'))
+    df.index = df.datetime
+    forecast.index = forecast.datetime
+    plt.plot(df.bullets, alpha=0.6)
+    plt.plot(forecast.bullets, alpha=0.6)
+    plt.savefig('report/{}_final_forecast.png'.format(modelname))
+    plt.show()
+    plt.close()
 
 
 if __name__ == '__main__':
