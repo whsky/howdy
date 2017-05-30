@@ -2,7 +2,7 @@
 ## Bullet sales data challenge
 Prepared by Steve Iannaccone - May 2017
 
-**Objectives:** given historical sales data, project future sales for the next 12 months.
+Objectives: given historical sales data, project future sales for the next 12 months.
 
 ## Table of Contents:
 
@@ -39,14 +39,20 @@ as well as the sales aggregated by manufacturer, for the following year.
 
 ## EDA
 Look at data (negative values)
+
 Split and clean data
+
 Negative values - reset to zero
+
 look for seasonality
 
 ## Forecasting Approach
 Exponential smoothing - trend seasonality
+
 ARIMA - moving average good for data with sudden spikes
+
 Monte Carlo Markov Chain - gets confidence intervals
+
 clean up negative and fractional predicted sales values
 
 
@@ -292,56 +298,165 @@ Cleaned forecast:
 | 1817-09-01 | 6.0     |
 | 1817-10-01 | 8.0     |
 | 1817-11-01 | 16.0    |
-| 1817-12-01 | 16.0    | 
+| 1817-12-01 | 16.0    |
 
 ## Henry-Lever Forecasts
 
 ### 80fxl
+Forecast model plot:
+![80fxl forecast plot](report/Henry_Lever_80fxl_forecast.png?raw=true "80fxl forecast plot")
+Trend and seasonality plot:
+![80fxl seasonality plot](report/Remington_80fxl_seasonality.png?raw=true "80fxl seasonality plot")
+Cleaned forecast:
+
+| datetime   | bullets |
+|------------|---------|
+| 1817-01-01 | 7.0     |
+| 1817-02-01 | 0.0     |
+| 1817-03-01 | 0.0     |
+| 1817-04-01 | 4.0     |
+| 1817-05-01 | 0.0     |
+| 1817-06-01 | 16.0    |
+| 1817-07-01 | 0.0     |
+| 1817-08-01 | 0.0     |
+| 1817-09-01 | 0.0     |
+| 1817-10-01 | 0.0     |
+| 1817-11-01 | 0.0     |
+| 1817-12-01 | -0.0    |
 
 ### 81fxl
+Forecast model plot:
+![81fxl forecast plot](report/Henry_Lever_81fxl_forecast.png?raw=true "81fxl forecast plot")
+Trend and seasonality plot:
+![81fxl seasonality plot](report/Remington_81fxl_seasonality.png?raw=true "81fxl seasonality plot")
+Cleaned forecast:
+
+| datetime   | bullets |
+|------------|---------|
+| 1817-01-01 | 0.0     |
+| 1817-02-01 | 1.0     |
+| 1817-03-01 | 0.0     |
+| 1817-04-01 | 3.0     |
+| 1817-05-01 | 0.0     |
+| 1817-06-01 | 7.0     |
+| 1817-07-01 | 0.0     |
+| 1817-08-01 | 0.0     |
+| 1817-09-01 | 0.0     |
+| 1817-10-01 | 0.0     |
+| 1817-11-01 | 1.0     |
+| 1817-12-01 | 0.0     |
+
 
 ### 82fxl
+Forecast model plot:
+![82fxl forecast plot](report/Henry_Lever_82fxl_forecast.png?raw=true "82fxl forecast plot")
+Trend and seasonality plot:
+![82fxl seasonality plot](report/Remington_82fxl_seasonality.png?raw=true "82fxl seasonality plot")
+Cleaned forecast:
+
+| datetime   | bullets |
+|------------|---------|
+| 1817-01-01 | 1.0     |
+| 1817-02-01 | 1.0     |
+| 1817-03-01 | 0.0     |
+| 1817-04-01 | 2.0     |
+| 1817-05-01 | 0.0     |
+| 1817-06-01 | 8.0     |
+| 1817-07-01 | 0.0     |
+| 1817-08-01 | 0.0     |
+| 1817-09-01 | 0.0     |
+| 1817-10-01 | -0.0    |
+| 1817-11-01 | 0.0     |
+| 1817-12-01 | 0.0     |
+
 
 ### 83fxl
+Forecast model plot:
+![83fxl forecast plot](report/Henry_Lever_83fxl_forecast.png?raw=true "83fxl forecast plot")
+Trend and seasonality plot:
+![83fxl seasonality plot](report/Remington_83fxl_seasonality.png?raw=true "83fxl seasonality plot")
+Cleaned forecast:
+
+| datetime   | bullets |
+|------------|---------|
+| 1817-01-01 | 5.0     |
+| 1817-02-01 | 7.0     |
+| 1817-03-01 | 3.0     |
+| 1817-04-01 | 0.0     |
+| 1817-05-01 | 4.0     |
+| 1817-06-01 | 6.0     |
+| 1817-07-01 | 8.0     |
+| 1817-08-01 | 8.0     |
+| 1817-09-01 | 12.0    |
+| 1817-10-01 | 0.0     |
+| 1817-11-01 | 12.0    |
+| 1817-12-01 | 11.0    |
+
 
 ### 84fxl
+Forecast model plot:
+![84fxl forecast plot](report/Henry_Lever_84fxl_forecast.png?raw=true "84fxl forecast plot")
+Trend and seasonality plot:
+![84fxl seasonality plot](report/Remington_84fxl_seasonality.png?raw=true "84fxl seasonality plot")
+Cleaned forecast:
+
+| datetime   | bullets |
+|------------|---------|
+| 1817-01-01 | 2.0     |
+| 1817-02-01 | 7.0     |
+| 1817-03-01 | 1.0     |
+| 1817-04-01 | 3.0     |
+| 1817-05-01 | 3.0     |
+| 1817-06-01 | 6.0     |
+| 1817-07-01 | 3.0     |
+| 1817-08-01 | 2.0     |
+| 1817-09-01 | 3.0     |
+| 1817-10-01 | 4.0     |
+| 1817-11-01 | 2.0     |
+| 1817-12-01 | 4.0     |
+
+
 
 ## Aggregated Results
 
 **Aggregated Henry-Lever Sales Forecast**
 
-|    | datetime            | bullets |
-|----|---------------------|---------|
-| 0  | 1817-01-01 00:00:00 | 15.0    |
-| 1  | 1817-02-01 00:00:00 | 16.0    |
-| 2  | 1817-03-01 00:00:00 | 4.0     |
-| 3  | 1817-04-01 00:00:00 | 12.0    |
-| 4  | 1817-05-01 00:00:00 | 7.0     |
-| 5  | 1817-06-01 00:00:00 | 43.0    |
-| 6  | 1817-07-01 00:00:00 | 11.0    |
-| 7  | 1817-08-01 00:00:00 | 10.0    |
-| 8  | 1817-09-01 00:00:00 | 15.0    |
-| 9  | 1817-10-01 00:00:00 | 4.0     |
-| 10 | 1817-11-01 00:00:00 | 15.0    |
-| 11 | 1817-12-01 00:00:00 | 15.0    |
+| datetime   | bullets |
+|------------|---------|
+| 1817-01-01 | 15.0    |
+| 1817-02-01 | 16.0    |
+| 1817-03-01 | 4.0     |
+| 1817-04-01 | 12.0    |
+| 1817-05-01 | 7.0     |
+| 1817-06-01 | 43.0    |
+| 1817-07-01 | 11.0    |
+| 1817-08-01 | 10.0    |
+| 1817-09-01 | 15.0    |
+| 1817-10-01 | 4.0     |
+| 1817-11-01 | 15.0    |
+| 1817-12-01 | 15.0    |
 
 **Aggregated Remington Sales Forecast**
 
-|    | datetime            | bullets |
-|----|---------------------|---------|
-| 0  | 1817-01-01 00:00:00 | 30.0    |
-| 1  | 1817-02-01 00:00:00 | 167.0   |
-| 2  | 1817-03-01 00:00:00 | 112.0   |
-| 3  | 1817-04-01 00:00:00 | 144.0   |
-| 4  | 1817-05-01 00:00:00 | 58.0    |
-| 5  | 1817-06-01 00:00:00 | 37.0    |
-| 6  | 1817-07-01 00:00:00 | 133.0   |
-| 7  | 1817-08-01 00:00:00 | 83.0    |
-| 8  | 1817-09-01 00:00:00 | 91.0    |
-| 9  | 1817-10-01 00:00:00 | 244.0   |
-| 10 | 1817-11-01 00:00:00 | 390.0   |
-| 11 | 1817-12-01 00:00:00 | 169.0   |
+| datetime   | bullets |
+|------------|---------|
+| 1817-01-01 | 30.0    |
+| 1817-02-01 | 167.0   |
+| 1817-03-01 | 112.0   |
+| 1817-04-01 | 144.0   |
+| 1817-05-01 | 58.0    |
+| 1817-06-01 | 37.0    |
+| 1817-07-01 | 133.0   |
+| 1817-08-01 | 83.0    |
+| 1817-09-01 | 91.0    |
+| 1817-10-01 | 244.0   |
+| 1817-11-01 | 390.0   |
+| 1817-12-01 | 169.0   |
 
 ## Drawbacks
+Underestimates sudden jumps in sales
 
 ## Future Work
+Other models
+
+RNN - will probably need more granular data for this to work well
