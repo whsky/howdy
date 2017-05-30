@@ -5,6 +5,24 @@ Prepared by Steve Iannaccone - May 2017
 **Objectives:** given historical sales data, project future sales for the next 12 months.
 
 ## Contents
+**Remington:**
+    * [52fxl](#52fxl)
+    * [53fxl](#53fxl)
+    * [54fxl](#54fxl)
+    * [55fxl](#55fxl)
+    * [56fxl](#56fxl)
+    * [57fxl](#57fxl)
+    * [58fxl](#58fxl)
+    * [59fxl](#59fxl)
+    * [60fxl](#60fxl)
+    * [61fxl](#61fxl)
+
+**Henry-Lever:**
+    * [80fxl](#80fxl)
+    * [81fxl](#81fxl)
+    * [82fxl](#82fxl)
+    * [83fxl](#83fxl)
+    * [84fxl](#84fxl)
 
 ## Background
 
@@ -18,9 +36,13 @@ as well as the sales aggregated by manufacturer, for the following year.
 
 ## Remington Forecasts
 
-### 52fxl
+### 52fxl(#52fxl)
+
+Forecast model plot:
 
 ![52fxl forecast plot](report/Remington_52fxl_forecast.png?raw=true "52fxl forecast plot")
+
+Trend and seasonality plot:
 
 ![52fxl seasonality plot](report/Remington_52fxl_seasonality.png?raw=true "52fxl seasonality plot")
 
