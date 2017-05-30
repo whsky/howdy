@@ -141,6 +141,7 @@ Cleaned forecast:
 | 1817-12-01 | 7.0     |
 
 Final forecast plot:
+
 ![52fxl forecast plot](report/Remington_52fxl_final_forecast.png?raw=true "52fxl final forecast plot")
 
 ### 53fxl
@@ -170,6 +171,7 @@ Cleaned forecast:
 | 1817-12-01 | 6.0     |
 
 Final forecast plot:
+
 ![53fxl forecast plot](report/Remington_53fxl_final_forecast.png?raw=true "53fxl final forecast plot")
 
 ### 54fxl
@@ -199,11 +201,13 @@ Cleaned forecast:
 | 1817-12-01 | 7.0     |
 
 Final forecast plot:
+
 ![54fxl forecast plot](report/Remington_54fxl_final_forecast.png?raw=true "54fxl final forecast plot")
 
 
 ### 55fxl
 Forecast model plot:
+
 ![55fxl forecast plot](report/Remington_55fxl_forecast.png?raw=true "55fxl forecast plot")
 
 Trend and seasonality plot:
@@ -228,13 +232,18 @@ Cleaned forecast:
 | 1817-12-01 | -0.0    |
 
 Final forecast plot:
+
 ![55fxl forecast plot](report/Remington_55fxl_final_forecast.png?raw=true "55fxl final forecast plot")
 
 ### 56fxl
 Forecast model plot:
+
 ![56fxl forecast plot](report/Remington_56fxl_forecast.png?raw=true "56fxl forecast plot")
+
 Trend and seasonality plot:
+
 ![56fxl seasonality plot](report/Remington_56fxl_seasonality.png?raw=true "56fxl seasonality plot")
+
 Cleaned forecast:
 
 | datetime   | bullets |
@@ -253,13 +262,18 @@ Cleaned forecast:
 | 1817-12-01 | 0.0     |
 
 Final forecast plot:
+
 ![56fxl forecast plot](report/Remington_56fxl_final_forecast.png?raw=true "56fxl final forecast plot")
 
 ### 57fxl
 Forecast model plot:
+
 ![57fxl forecast plot](report/Remington_57fxl_forecast.png?raw=true "57fxl forecast plot")
+
 Trend and seasonality plot:
+
 ![57fxl seasonality plot](report/Remington_57fxl_seasonality.png?raw=true "57fxl seasonality plot")
+
 Cleaned forecast:
 
 | datetime   | bullets |
@@ -278,13 +292,18 @@ Cleaned forecast:
 | 1817-12-01 | 76.0    |
 
 Final forecast plot:
+
 ![57fxl forecast plot](report/Remington_57fxl_final_forecast.png?raw=true "57fxl final forecast plot")
 
 ### 58fxl
 Forecast model plot:
+
 ![58fxl forecast plot](report/Remington_58fxl_forecast.png?raw=true "58fxl forecast plot")
+
 Trend and seasonality plot:
+
 ![58fxl seasonality plot](report/Remington_58fxl_seasonality.png?raw=true "58fxl seasonality plot")
+
 Cleaned forecast:
 
 | datetime   | bullets |
@@ -301,14 +320,20 @@ Cleaned forecast:
 | 1817-10-01 | 5.0     |
 | 1817-11-01 | 48.0    |
 | 1817-12-01 | 2.0     |
+
 Final forecast plot:
+
 ![58fxl forecast plot](report/Remington_58fxl_final_forecast.png?raw=true "58fxl finalforecast plot")
 
 ### 59fxl
 Forecast model plot:
+
 ![59fxl forecast plot](report/Remington_59fxl_forecast.png?raw=true "59fxl forecast plot")
+
 Trend and seasonality plot:
+
 ![59fxl seasonality plot](report/Remington_59fxl_seasonality.png?raw=true "59fxl seasonality plot")
+
 Cleaned forecast:
 
 | datetime   | bullets |
@@ -327,13 +352,18 @@ Cleaned forecast:
 | 1817-12-01 | 55.0    |
 
 Final forecast plot:
+
 ![59fxl forecast plot](report/Remington_59fxl_final_forecast.png?raw=true "59fxl final forecast plot")
 
 ### 60fxl
 Forecast model plot:
+
 ![60fxl forecast plot](report/Remington_60fxl_forecast.png?raw=true "60fxl forecast plot")
+
 Trend and seasonality plot:
+
 ![60fxl seasonality plot](report/Remington_60fxl_seasonality.png?raw=true "60fxl seasonality plot")
+
 Cleaned forecast:
 
 | datetime   | bullets |
@@ -352,13 +382,18 @@ Cleaned forecast:
 | 1817-12-01 | 0.0     |
 
 Final forecast plot:
+
 ![60fxl forecast plot](report/Remington_60fxl_final_forecast.png?raw=true "60fxl final forecast plot")
 
 ### 61fxl
 Forecast model plot:
+
 ![61fxl forecast plot](report/Remington_61fxl_forecast.png?raw=true "61fxl forecast plot")
+
 Trend and seasonality plot:
+
 ![61fxl seasonality plot](report/Remington_61fxl_seasonality.png?raw=true "61fxl seasonality plot")
+
 Cleaned forecast:
 
 | datetime   | bullets |
@@ -377,6 +412,7 @@ Cleaned forecast:
 | 1817-12-01 | 16.0    |
 
 Final forecast plot:
+
 ![61fxl forecast plot](report/Remington_61fxl_final_forecast.png?raw=true "61fxl final forecast plot")
 
 
@@ -384,9 +420,13 @@ Final forecast plot:
 
 ### 80fxl
 Forecast model plot:
+
 ![80fxl forecast plot](report/Henry_Lever_80fxl_forecast.png?raw=true "80fxl forecast plot")
+
 Trend and seasonality plot:
+
 ![80fxl seasonality plot](report/Henry_Lever_80fxl_seasonality.png?raw=true "80fxl seasonality plot")
+
 Cleaned forecast:
 
 | datetime   | bullets |
@@ -405,13 +445,18 @@ Cleaned forecast:
 | 1817-12-01 | -0.0    |
 
 Final forecast plot:
+
 ![80fxl forecast plot](report/Henry_Lever_80fxl_final_forecast.png?raw=true "80fxl final forecast plot")
 
 ### 81fxl
 Forecast model plot:
+
 ![81fxl forecast plot](report/Henry_Lever_81fxl_forecast.png?raw=true "81fxl forecast plot")
+
 Trend and seasonality plot:
+
 ![81fxl seasonality plot](report/Henry_Lever_81fxl_seasonality.png?raw=true "81fxl seasonality plot")
+
 Cleaned forecast:
 
 | datetime   | bullets |
@@ -430,13 +475,18 @@ Cleaned forecast:
 | 1817-12-01 | 0.0     |
 
 Final forecast plot:
+
 ![81fxl forecast plot](report/Henry_Lever_81fxl_final_forecast.png?raw=true "81fxl final forecast plot")
 
 ### 82fxl
 Forecast model plot:
+
 ![82fxl forecast plot](report/Henry_Lever_82fxl_forecast.png?raw=true "82fxl forecast plot")
+
 Trend and seasonality plot:
+
 ![82fxl seasonality plot](report/Henry_Lever_82fxl_seasonality.png?raw=true "82fxl seasonality plot")
+
 Cleaned forecast:
 
 | datetime   | bullets |
@@ -455,13 +505,18 @@ Cleaned forecast:
 | 1817-12-01 | 0.0     |
 
 Final forecast plot:
+
 ![82fxl forecast plot](report/Henry_Lever_82fxl_final_forecast.png?raw=true "82fxl final forecast plot")
 
 ### 83fxl
 Forecast model plot:
+
 ![83fxl forecast plot](report/Henry_Lever_83fxl_forecast.png?raw=true "83fxl forecast plot")
+
 Trend and seasonality plot:
+
 ![83fxl seasonality plot](report/Henry_Lever_83fxl_seasonality.png?raw=true "83fxl seasonality plot")
+
 Cleaned forecast:
 
 | datetime   | bullets |
@@ -480,13 +535,18 @@ Cleaned forecast:
 | 1817-12-01 | 11.0    |
 
 Final forecast plot:
+
 ![83fxl forecast plot](report/Henry_Lever_83fxl_final_forecast.png?raw=true "83fxl final forecast plot")
 
 ### 84fxl
 Forecast model plot:
+
 ![84fxl forecast plot](report/Henry_Lever_84fxl_forecast.png?raw=true "84fxl forecast plot")
+
 Trend and seasonality plot:
+
 ![84fxl seasonality plot](report/Henry_Lever_84fxl_seasonality.png?raw=true "84fxl seasonality plot")
+
 Cleaned forecast:
 
 | datetime   | bullets |
@@ -505,6 +565,7 @@ Cleaned forecast:
 | 1817-12-01 | 4.0     |
 
 Final forecast plot:
+
 ![84fxl forecast plot](report/Henry_Lever_84fxl_final_forecast.png?raw=true "84fxl final forecast plot")
 
 ## Aggregated Results
@@ -555,6 +616,7 @@ I will ask for more data!
 
 ## Future Work
 Given more time and more data, the next steps would be:
+
 * Check other models
 * Aggregate sale data first and then rebuild model _(rather than making model
 forecasts first, and then aggregating)_
