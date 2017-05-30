@@ -67,7 +67,7 @@ These recurrent sales spikes we saw in EDA tip us off on what approach we
 should use to begin modeling. Forecasting based on smoothing _(exponential
 smoothing, ARIMA, or other moving averages)_ do well with this type of data.
 Using additive models also helps us with potential issues with variance in the
-sales figures. Recurrent Neural Nets, _(RNNs)_, are excellent at forecasting
+sales figures. Recurrent Neural Nets _(RNNs)_ are excellent at forecasting
 data with an underlying pattern. Unfortunately, we only have monthly sales
 figures for several years to use for each handgun model. RNNs typically
 require more data to effectively train.
@@ -113,7 +113,7 @@ script file as well.
 
 ## Remington Forecasts
 
-### 52fxl
+## 52fxl
 
 Forecast model plot:
 
@@ -144,7 +144,7 @@ Final forecast plot:
 
 ![52fxl forecast plot](report/Remington_52fxl_final_forecast.png?raw=true "52fxl final forecast plot")
 
-### 53fxl
+## 53fxl
 Forecast model plot:
 
 ![53fxl forecast plot](report/Remington_53fxl_forecast.png?raw=true "53fxl forecast plot")
@@ -174,7 +174,7 @@ Final forecast plot:
 
 ![53fxl forecast plot](report/Remington_53fxl_final_forecast.png?raw=true "53fxl final forecast plot")
 
-### 54fxl
+## 54fxl
 Forecast model plot:
 
 ![54fxl forecast plot](report/Remington_54fxl_forecast.png?raw=true "54fxl forecast plot")
@@ -205,7 +205,7 @@ Final forecast plot:
 ![54fxl forecast plot](report/Remington_54fxl_final_forecast.png?raw=true "54fxl final forecast plot")
 
 
-### 55fxl
+## 55fxl
 Forecast model plot:
 
 ![55fxl forecast plot](report/Remington_55fxl_forecast.png?raw=true "55fxl forecast plot")
@@ -235,7 +235,7 @@ Final forecast plot:
 
 ![55fxl forecast plot](report/Remington_55fxl_final_forecast.png?raw=true "55fxl final forecast plot")
 
-### 56fxl
+## 56fxl
 Forecast model plot:
 
 ![56fxl forecast plot](report/Remington_56fxl_forecast.png?raw=true "56fxl forecast plot")
@@ -265,7 +265,7 @@ Final forecast plot:
 
 ![56fxl forecast plot](report/Remington_56fxl_final_forecast.png?raw=true "56fxl final forecast plot")
 
-### 57fxl
+## 57fxl
 Forecast model plot:
 
 ![57fxl forecast plot](report/Remington_57fxl_forecast.png?raw=true "57fxl forecast plot")
@@ -295,7 +295,7 @@ Final forecast plot:
 
 ![57fxl forecast plot](report/Remington_57fxl_final_forecast.png?raw=true "57fxl final forecast plot")
 
-### 58fxl
+## 58fxl
 Forecast model plot:
 
 ![58fxl forecast plot](report/Remington_58fxl_forecast.png?raw=true "58fxl forecast plot")
@@ -325,7 +325,7 @@ Final forecast plot:
 
 ![58fxl forecast plot](report/Remington_58fxl_final_forecast.png?raw=true "58fxl finalforecast plot")
 
-### 59fxl
+## 59fxl
 Forecast model plot:
 
 ![59fxl forecast plot](report/Remington_59fxl_forecast.png?raw=true "59fxl forecast plot")
@@ -355,7 +355,7 @@ Final forecast plot:
 
 ![59fxl forecast plot](report/Remington_59fxl_final_forecast.png?raw=true "59fxl final forecast plot")
 
-### 60fxl
+## 60fxl
 Forecast model plot:
 
 ![60fxl forecast plot](report/Remington_60fxl_forecast.png?raw=true "60fxl forecast plot")
@@ -385,7 +385,7 @@ Final forecast plot:
 
 ![60fxl forecast plot](report/Remington_60fxl_final_forecast.png?raw=true "60fxl final forecast plot")
 
-### 61fxl
+## 61fxl
 Forecast model plot:
 
 ![61fxl forecast plot](report/Remington_61fxl_forecast.png?raw=true "61fxl forecast plot")
@@ -418,7 +418,7 @@ Final forecast plot:
 
 ## Henry-Lever Forecasts
 
-### 80fxl
+## 80fxl
 Forecast model plot:
 
 ![80fxl forecast plot](report/Henry_Lever_80fxl_forecast.png?raw=true "80fxl forecast plot")
@@ -448,7 +448,7 @@ Final forecast plot:
 
 ![80fxl forecast plot](report/Henry_Lever_80fxl_final_forecast.png?raw=true "80fxl final forecast plot")
 
-### 81fxl
+## 81fxl
 Forecast model plot:
 
 ![81fxl forecast plot](report/Henry_Lever_81fxl_forecast.png?raw=true "81fxl forecast plot")
@@ -478,7 +478,7 @@ Final forecast plot:
 
 ![81fxl forecast plot](report/Henry_Lever_81fxl_final_forecast.png?raw=true "81fxl final forecast plot")
 
-### 82fxl
+## 82fxl
 Forecast model plot:
 
 ![82fxl forecast plot](report/Henry_Lever_82fxl_forecast.png?raw=true "82fxl forecast plot")
@@ -508,7 +508,7 @@ Final forecast plot:
 
 ![82fxl forecast plot](report/Henry_Lever_82fxl_final_forecast.png?raw=true "82fxl final forecast plot")
 
-### 83fxl
+## 83fxl
 Forecast model plot:
 
 ![83fxl forecast plot](report/Henry_Lever_83fxl_forecast.png?raw=true "83fxl forecast plot")
@@ -538,7 +538,7 @@ Final forecast plot:
 
 ![83fxl forecast plot](report/Henry_Lever_83fxl_final_forecast.png?raw=true "83fxl final forecast plot")
 
-### 84fxl
+## 84fxl
 Forecast model plot:
 
 ![84fxl forecast plot](report/Henry_Lever_84fxl_forecast.png?raw=true "84fxl forecast plot")
