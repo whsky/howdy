@@ -6,7 +6,7 @@ Prepared by Steve Iannaccone - May 2017
 
 ## Contents
 * **Remington:**
-    * [52fxl](###52fxl)
+    * [52fxl](.#52fxl)
     * [53fxl](#53fxl)
     * [54fxl](#54fxl)
     * [55fxl](#55fxl)
@@ -36,8 +36,7 @@ as well as the sales aggregated by manufacturer, for the following year.
 
 ## Remington Forecasts
 
-### 52fxl ###
-(#rem-52fxl)
+### 52fxl
 
 Forecast model plot:
 
