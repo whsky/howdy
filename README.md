@@ -306,7 +306,7 @@ Cleaned forecast:
 Forecast model plot:
 ![80fxl forecast plot](report/Henry_Lever_80fxl_forecast.png?raw=true "80fxl forecast plot")
 Trend and seasonality plot:
-![80fxl seasonality plot](report/Remington_80fxl_seasonality.png?raw=true "80fxl seasonality plot")
+![80fxl seasonality plot](report/Henry_Lever_80fxl_seasonality.png?raw=true "80fxl seasonality plot")
 Cleaned forecast:
 
 | datetime   | bullets |
@@ -328,7 +328,7 @@ Cleaned forecast:
 Forecast model plot:
 ![81fxl forecast plot](report/Henry_Lever_81fxl_forecast.png?raw=true "81fxl forecast plot")
 Trend and seasonality plot:
-![81fxl seasonality plot](report/Remington_81fxl_seasonality.png?raw=true "81fxl seasonality plot")
+![81fxl seasonality plot](report/Henry_Lever_81fxl_seasonality.png?raw=true "81fxl seasonality plot")
 Cleaned forecast:
 
 | datetime   | bullets |
@@ -351,7 +351,7 @@ Cleaned forecast:
 Forecast model plot:
 ![82fxl forecast plot](report/Henry_Lever_82fxl_forecast.png?raw=true "82fxl forecast plot")
 Trend and seasonality plot:
-![82fxl seasonality plot](report/Remington_82fxl_seasonality.png?raw=true "82fxl seasonality plot")
+![82fxl seasonality plot](report/Henry_Lever_82fxl_seasonality.png?raw=true "82fxl seasonality plot")
 Cleaned forecast:
 
 | datetime   | bullets |
@@ -374,7 +374,7 @@ Cleaned forecast:
 Forecast model plot:
 ![83fxl forecast plot](report/Henry_Lever_83fxl_forecast.png?raw=true "83fxl forecast plot")
 Trend and seasonality plot:
-![83fxl seasonality plot](report/Remington_83fxl_seasonality.png?raw=true "83fxl seasonality plot")
+![83fxl seasonality plot](report/Henry_Lever_83fxl_seasonality.png?raw=true "83fxl seasonality plot")
 Cleaned forecast:
 
 | datetime   | bullets |
@@ -397,7 +397,7 @@ Cleaned forecast:
 Forecast model plot:
 ![84fxl forecast plot](report/Henry_Lever_84fxl_forecast.png?raw=true "84fxl forecast plot")
 Trend and seasonality plot:
-![84fxl seasonality plot](report/Remington_84fxl_seasonality.png?raw=true "84fxl seasonality plot")
+![84fxl seasonality plot](report/Henry_Lever_84fxl_seasonality.png?raw=true "84fxl seasonality plot")
 Cleaned forecast:
 
 | datetime   | bullets |
