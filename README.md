@@ -4,25 +4,37 @@ Prepared by Steve Iannaccone - May 2017
 
 **Objectives:** given historical sales data, project future sales for the next 12 months.
 
-## Contents
-* **Remington:**
-    * [52fxl](README.md#52fxl)
-    * [53fxl](#53fxl)
-    * [54fxl](#54fxl)
-    * [55fxl](#55fxl)
-    * [56fxl](#56fxl)
-    * [57fxl](#57fxl)
-    * [58fxl](#58fxl)
-    * [59fxl](#59fxl)
-    * [60fxl](#60fxl)
-    * [61fxl](#61fxl)
+## Table of Contents:
 
-* **Henry-Lever:**
-    * [80fxl](#80fxl)
-    * [81fxl](#81fxl)
-    * [82fxl](#82fxl)
-    * [83fxl](#83fxl)
-    * [84fxl](#84fxl)
+* [Background](README.md#background)
+
+* [Remington Forecasts:](README.md#remington-forecasts)
+    * [52fxl](README.md#52fxl)
+    * [53fxl](README.md#53fxl)
+    * [54fxl](README.md#54fxl)
+    * [55fxl](README.md#55fxl)
+    * [56fxl](README.md#56fxl)
+    * [57fxl](README.md#57fxl)
+    * [58fxl](README.md#58fxl)
+    * [59fxl](README.md#59fxl)
+    * [60fxl](README.md#60fxl)
+    * [61fxl](README.md#61fxl)
+
+* [Henry-Lever:](README.md#henry-lever-forecasts)
+    * [80fxl](README.md#80fxl)
+    * [81fxl](README.md#81fxl)
+    * [82fxl](README.md#82fxl)
+    * [83fxl](README.md#83fxl)
+    * [84fxl](README.md#84fxl)
+
+* [Aggregated Forecasts](README.md#aggregated-forecasts)
+
+* [Drawbacks](README.md#drawbacks)
+
+* [Future Work](README.md#future-work)
+
+
+
 
 ## Background
 
