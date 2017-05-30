@@ -6,7 +6,7 @@ Prepared by Steve Iannaccone - May 2017
 
 ## Contents
 * **Remington:**
-    * [52fxl](howdy#Howdy)
+    * [52fxl](README.md#Howdy)
     * [53fxl](#53fxl)
     * [54fxl](#54fxl)
     * [55fxl](#55fxl)
